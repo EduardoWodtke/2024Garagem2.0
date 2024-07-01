@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Acessorio(models.Model):
     categoria = models.CharField(max_length=100)
 
